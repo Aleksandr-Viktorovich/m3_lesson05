@@ -12,9 +12,7 @@ html {
 body {
   min-width: 320px;
   min-height: 100vh;
-  font-family: Arial, sans-serif;
-  background-color: #1B1A1B;
-  color: #fff;
+  font-family: Roboto, sans-serif;
 }
 
 
@@ -54,14 +52,6 @@ iframe {
   border: none;
 }
 
-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.wrapper {
-  padding-top: 146px;
-}
 
 .visually-hidden {
   position: fixed;
@@ -69,16 +59,10 @@ section {
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1260px;
   padding: 0 30px;
   margin: 0 auto;
 }
 
-.title {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-  text-align: center;
-  margin-bottom: 50px;
-}
+
 
