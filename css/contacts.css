@@ -1,7 +1,138 @@
 .contacts__wrapper {
   background-image: url("../img/contacts.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .contacts {
   padding-top: 35px;
+}
+
+.contacts__title {
+  padding-top: 35px;
+  margin-bottom: 17px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  color: #fff;
+}
+
+.contacts__form-title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+}
+
+.contacts__form-label {
+  margin-bottom: 21px;
+}
+
+.contacts__label {
+  margin-bottom: 50px;
+}
+
+input {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 9px 25px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+}
+
+.contacts__btn {
+  padding: 11px 38px;
+  background: #15A9CB;
+  box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.contacts__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 70px;
+}
+
+.contacts__link {
+  color: #4A76A8;
+}
+
+@media (max-width: 1200px) {
+
+  .contacts__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .contacts__form-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  input {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 8px 23px;
+  }
+  .contacts__text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .contacts__form {
+    padding: 0;
+  }
+
+  .contacts__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .contacts__form-title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  input {
+    width: 290px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 6px 18px;
+  }
+  .contacts__text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .container {
+    padding: 0;
+  }
 }
