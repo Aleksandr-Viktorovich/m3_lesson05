@@ -1,16 +1,16 @@
 .footer {
   background-color: #2F324B;
+  padding-top: 40px;
 }
 
 .footer__container {
-  padding-top: 40px;
+  padding-bottom: 45px;
 }
 
 .footer__name {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 45px;
 }
 
 .footer__logo-box {

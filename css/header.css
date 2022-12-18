@@ -1,7 +1,8 @@
 .header {
   background-image: url("../img/header.jpg");
   color: #fff;
-  margin-bottom: 35px;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -68,7 +69,6 @@
 }
 
 .header__btn {
-  margin-bottom: 70px;
   padding: 12px 48px;
   background: #15A9CB;
   box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
