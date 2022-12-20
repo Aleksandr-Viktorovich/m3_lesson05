@@ -6,11 +6,11 @@
 }
 
 .contacts {
-  padding-top: 35px;
+  padding-top: 38px;
 }
 
 .contacts__title {
-  padding-top: 35px;
+  padding-top: 71px;
   margin-bottom: 17px;
   font-weight: 700;
   font-size: 35px;
@@ -29,7 +29,7 @@
 }
 
 .contacts__form-box {
-  padding-bottom: 50px;
+  padding-bottom: 53px;
 }
 
 .contacts__form {
@@ -41,7 +41,7 @@
 }
 
 .contacts__form-label {
-  margin-bottom: 21px;
+  margin-bottom: 19px;
 }
 
 .contacts__label {
@@ -49,6 +49,7 @@
 }
 
 input {
+  width: 423px;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -59,7 +60,7 @@ input {
 }
 
 .contacts__btn {
-  padding: 11px 38px;
+  padding: 10px 38px;
   background: #15A9CB;
   box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
   border-radius: 50px;
@@ -101,10 +102,28 @@ input {
     line-height: 23px;
     padding: 8px 23px;
   }
+
   .contacts__text {
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contacts__wrapper {
+    padding-bottom: 58px;
+  }
+  .contacts__form-box {
+    padding-bottom: 30px;
+  }
+  .contacts__form-title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 45px;
+  }
+  input {
+    width: 380px;
   }
 }
 
@@ -136,7 +155,34 @@ input {
     font-size: 11px;
     line-height: 13px;
   }
-  .container {
+}
+
+@media (max-width: 320px) {
+  .contacts {
+    padding-top: 28px;
+  }
+  .contacts__title {
+    padding-top: 31px;
+    margin-bottom: 12px;
+  }
+  .contacts__container {
     padding: 0;
+  }
+  .contacts__wrapper {
+    padding-bottom: 30px;
+  }
+  .contacts__form-label {
+    margin-bottom: 13px;
+  }
+  .contacts__form-title {
+    margin-bottom: 35px;
+  }
+  .contacts__label-btn {
+    padding-bottom: 31px;
+  }
+  .contacts__btn {
+    padding: 8px 30px;
+    font-size: 16px;
+    line-height: 19px;
   }
 }

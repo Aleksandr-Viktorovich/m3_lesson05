@@ -22,7 +22,7 @@
 
 .hero__about-text {
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 56px;
   max-width: 724px;
   font-weight: 400;
   font-size: 18px;
@@ -33,8 +33,9 @@
 
 .hero__list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   counter-reset: count;
+  gap: 50px;
 }
 
 .hero__item {
@@ -45,7 +46,7 @@
 .hero__item:after {
   position: absolute;
   content: counter(count);
-  top: 0;
+  top: 6px;
   left: 38px;
   font-weight: 500;
   font-size: 57px;
@@ -105,6 +106,32 @@ figure {
     }
 }
 
+@media (max-width: 1024px) {
+  .hero__title {
+    margin-bottom: 24px;
+  }
+  .hero__about {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 30px;
+  }
+  .hero__about-text {
+    max-width: 666px;
+    margin-bottom: 40px;
+  }
+  .hero__list {
+    gap: 35px;
+  }
+  .hero__item:after {
+    top: 21px;
+    left: 46px;
+    padding: 14px 37px;
+  }
+  .hero__item-text {
+    padding-top: 148px;
+  }
+}
+
 
 @media (max-width: 400px) {
   .hero__list {
@@ -139,3 +166,30 @@ figure {
     text-align: center;
   }
 }
+
+@media (max-width: 320px) {
+  .hero__title {
+    width: 261px;
+    margin-bottom: 17px;
+  }
+
+  .hero__about {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .hero__about-text {
+    margin-bottom: 22px;
+  }
+
+  .hero__list {
+    gap: 24px;
+  }
+
+  .hero__item:after {
+    left: 47px;
+    top: 20px;
+    padding: 14px 36px;
+  }
+}
+
