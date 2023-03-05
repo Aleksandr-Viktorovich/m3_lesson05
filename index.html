@@ -12,6 +12,7 @@
   <link rel="preload" href="fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/index.css">
   <title>Document</title>
+  <script defer src="/scripts/index.js"></script>
 </head>
 <body>
 <header class="header">
@@ -40,20 +41,60 @@
       <h2 class="hero__title">Уникальный заголовок для преимущества компании</h2>
       <h3 class="hero__about">- О нас -</h3>
       <p class="hero__about-text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
+      <button class="hero__item-button hero__item-button--left">
+        <svg width="83" height="88" viewBox="0 0 83 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d_194_181)">
+            <ellipse cx="34.0657" cy="40" rx="19.0657" ry="19" fill="white"/>
+          </g>
+          <path d="M29.3441 39.2929C28.9536 39.6834 28.9536 40.3166 29.3441 40.7071L35.7081 47.0711C36.0986 47.4616 36.7318 47.4616 37.1223 47.0711C37.5128 46.6806 37.5128 46.0474 37.1223 45.6569L31.4654 40L37.1223 34.3432C37.5128 33.9526 37.5128 33.3195 37.1223 32.9289C36.7318 32.5384 36.0986 32.5384 35.7081 32.9289L29.3441 39.2929ZM31.0547 39L30.0512 39L30.0512 41L31.0547 41L31.0547 39Z" fill="#434343"/>
+          <defs>
+            <filter id="filter0_d_194_181" x="-6" y="0" width="88.1309" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+              <feOffset dx="4" dy="4"/>
+              <feGaussianBlur stdDeviation="12.5"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_194_181"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_194_181" result="shape"/>
+            </filter>
+          </defs>
+        </svg>
+      </button>
       <ul class="hero__list">
-        <li class="hero__item">
+
+        <li class="hero__item hero__item-img1 active">
           <p class="hero__item-text">Первое целевое преимущество</p>
         </li>
-        <li class="hero__item">
+        <li class="hero__item hero__item-img2 hero__item-slider">
             <p class="hero__item-text">Второе целевое преимущество</p>
         </li>
-        <li class="hero__item">
+        <li class="hero__item hero__item-img3 hero__item-slider">
           <p class="hero__item-text">Третье целевое преимущество</p>
         </li>
-        <li class="hero__item">
+        <li class="hero__item hero__item-img4 hero__item-slider">
           <p class="hero__item-text">Четвертое целевое преимущество</p>
         </li>
+
       </ul>
+      <button class="hero__item-button hero__item-button--right">
+        <svg width="75" height="88" viewBox="0 0 75 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d_194_178)">
+            <ellipse cx="40.9349" cy="40" rx="19.0657" ry="19" fill="#4B4D62" fill-opacity="0.72"/>
+          </g>
+          <path d="M45.6559 40.7071C46.0464 40.3166 46.0464 39.6834 45.6559 39.2929L39.2919 32.9289C38.9014 32.5384 38.2682 32.5384 37.8777 32.9289C37.4872 33.3194 37.4872 33.9526 37.8777 34.3431L43.5346 40L37.8777 45.6568C37.4872 46.0474 37.4872 46.6805 37.8777 47.0711C38.2682 47.4616 38.9014 47.4616 39.2919 47.0711L45.6559 40.7071ZM43.9453 41L44.9488 41L44.9488 39L43.9453 39L43.9453 41Z" fill="white"/>
+          <defs>
+            <filter id="filter0_d_194_178" x="0.869141" y="0" width="88.1309" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+              <feOffset dx="4" dy="4"/>
+              <feGaussianBlur stdDeviation="12.5"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.824865 0 0 0 0 0.973799 0 0 0 0.05 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_194_178"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_194_178" result="shape"/>
+            </filter>
+          </defs>
+        </svg>
+      </button>
     </div>
   </section>
 
@@ -101,6 +142,11 @@
         <a class="footer__link-phone" href="tel:+79625561234">Перезвоните мне</a>
       </div>
     </div>
+    <div class="footer__link">
+      <a class="footer__link-text" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+      <a class="footer__link-phone" href="tel:+79625561234">Перезвоните мне</a>
+    </div>
+  </div>
 
   </div>
   <p class="footer__text-end">Сделано Ивановым Иваном</p>
